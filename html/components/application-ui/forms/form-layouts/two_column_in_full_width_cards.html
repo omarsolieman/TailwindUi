@@ -143,7 +143,8 @@
       <div class="mt-5 md:mt-0 md:col-span-2">
         <form class="space-y-6" action="#" method="POST">
           <fieldset>
-            <legend class="text-base font-medium text-gray-900">By Email</legend>
+            <legend class="sr-only">By Email</legend>
+            <div class="text-base font-medium text-gray-900" aria-hidden="true">By Email</div>
             <div class="mt-4 space-y-4">
               <div class="flex items-start">
                 <div class="h-5 flex items-center">
@@ -175,10 +176,8 @@
             </div>
           </fieldset>
           <fieldset>
-            <div>
-              <legend class="text-base font-medium text-gray-900">Push Notifications</legend>
-              <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.</p>
-            </div>
+            <legend class="contents text-base font-medium text-gray-900">Push Notifications</legend>
+            <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.</p>
             <div class="mt-4 space-y-4">
               <div class="flex items-center">
                 <input id="push-everything" name="push-notifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
